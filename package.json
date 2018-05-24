@@ -23,7 +23,9 @@
     "fetch.js"
   ],
   "scripts": {
-    "prepublish": "make dist/fetch.umd.js",
+    "build": "make dist/fetch.umd.js",
+    "prepare": "npm run build",
+    "prepublish": "npm run build",
     "test": "make"
   }
 }
