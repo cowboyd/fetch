@@ -1,7 +1,7 @@
 {
-  "name": "whatwg-fetch",
-  "description": "A window.fetch polyfill.",
-  "version": "2.0.4",
+  "name": "@xg-wang/whatwg-fetch",
+  "description": "Fork of whatwg-fetch to provide umd build before official release",
+  "version": "3.0.0",
   "main": "./dist/fetch.umd.js",
   "module": "./fetch.js",
   "repository": "github/fetch",
